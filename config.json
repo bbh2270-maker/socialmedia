@@ -1,0 +1,73 @@
+{
+  "brand": {
+    "name": "TechPulse BD",
+    "niche": "Tech Tips, AI Productivity, and Software Development",
+    "target_audience": "Tech enthusiasts, developers, freelancers, and students in Bangladesh",
+    "language": "mixed",
+    "tone": "engaging, informative, professional yet friendly",
+    "emoji": true,
+    "hashtags": {
+      "enabled": true,
+      "count": 5
+    },
+    "max_caption_length": 600,
+    "custom_system_prompt": "You are a professional social media content creator for TechPulse BD. Write engaging, value-packed social media posts with strong hooks, clear bullet points or insights, and an inviting call-to-action. If language is 'mixed', blend natural Bengali (Bangla) with familiar English tech terms (Banglish / bilingual style) commonly used in Bangladesh tech communities."
+  },
+  "topics": [
+    "5 Secret AI Tools That Save 10 Hours Every Week",
+    "Why Every Developer Should Learn Git Branching Strategies",
+    "The Future of Remote Tech Jobs for Bangladeshi Freelancers",
+    "How to Write Clean Python Code: 4 Tips You Can Use Today",
+    "Understanding Cloud Computing in Plain English",
+    "How to Protect Your Online Privacy and Passwords in 2025",
+    "Top VS Code Extensions That Boost Coding Speed",
+    "The Difference Between Frontend, Backend, and Fullstack",
+    "Why SQLite is Underrated for Production Microservices",
+    "How to Avoid Burnout as a Programmer",
+    "Prompt Engineering Tricks for Getting Better Coding Answers from AI",
+    "Building Fast Websites: Why Image Optimization Matters",
+    "How Web APIs Actually Work (Beginner Guide)",
+    "Linux Commands Every Developer Must Know by Heart",
+    "How Open Source Contributions Can Land You Your Next Job",
+    "Database Indexing Explained with a Real-World Analogy",
+    "Essential Cybersecurity Hygiene for Freelancers and Small Businesses",
+    "Docker in 3 Minutes: What Containers Actually Solve",
+    "Career Advice: How to Build a Strong Tech Portfolio in Bangladesh",
+    "Why Automating Repetitive Tasks Gives You a Competitive Edge"
+  ],
+  "history_check_limit": 30,
+  "image_mode": "ai",
+  "fallback_to_drive_on_ai_fail": true,
+  "fallback_to_text_only": true,
+  "drive_images": [
+    "https://drive.google.com/file/d/1ExampleDriveFileIdHere1/view?usp=sharing",
+    "https://drive.google.com/open?id=1ExampleDriveFileIdHere2",
+    "https://drive.google.com/uc?id=1ExampleDriveFileIdHere3"
+  ],
+  "ai": {
+    "text_providers": ["gemini", "groq", "openrouter"],
+    "models": {
+      "gemini": "gemini-1.5-flash",
+      "groq": "llama-3.3-70b-versatile",
+      "openrouter": "meta-llama/llama-3.3-70b-instruct"
+    },
+    "image_provider": "gemini",
+    "image_models": {
+      "gemini": "imagen-3.0-generate-002",
+      "openrouter": "black-forest-labs/flux-schnell"
+    },
+    "vision_enabled_for_drive": true,
+    "vision_model": "gemini-1.5-flash"
+  },
+  "facebook": {
+    "api_version": "v21.0"
+  },
+  "scheduler": {
+    "timezone": "Asia/Dhaka",
+    "morning_slot_cutoff_hour": 14,
+    "slots": {
+      "morning": "morning",
+      "evening": "evening"
+    }
+  }
+}
